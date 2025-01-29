@@ -35,3 +35,6 @@ jupyter notebook
 4. Załadowanie pliku `notebook.ipynb` i uruchomienie wszystkich komórek.
 
 *Alternatywą dla punktów 2-4 jest uruchomienie pliku `notebook.ipynb` np. w programie Visual Studio Code.*
+
+### 5. Wykorzystanie LLM
+W celu przyspieszenia prac korzystano z narzędzia Github Copilot. Ponadto ChatGPT był wykorzystywany w ramach wsparcia przy rozwiązywaniu błędów podczas tworzenia wykresów.
