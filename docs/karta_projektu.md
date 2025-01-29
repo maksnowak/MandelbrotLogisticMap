@@ -1,4 +1,4 @@
-# Fizyka Ogólna - Projekt nr 2 - Karta projektu
+# Fizyka Ogólna - Projekt nr 14 - Karta projektu
 ## Zbiór Mandelbrota a odwzorowanie logistyczne
 
 *Autorzy: Jakub Bąba (325146), Maksymilan Nowak (325202)*
