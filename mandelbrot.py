@@ -4,7 +4,7 @@ from matplotlib.colors import ListedColormap
 from matplotlib.patches import Patch
 
 
-def generate_x_values(xmin=-2, xmax=1, xres=20000):
+def generate_x_values(xmin=-2, xmax=1, xres=100000):
     return np.linspace(xmin, xmax, xres)
 
 
@@ -126,7 +126,7 @@ def plot_x_stabilized_values():
         for value in stabilized_set:
             x_values.append(c.real)
             y_values.append(value.real)
-    plt.scatter(x_values, y_values, s=0.5, alpha=0.7, color='blue')
+    plt.plot(x_values, y_values, ',b')
     plt.xlabel('Re')
     plt.ylabel('Stabilized values')
     plt.title('Stabilized values in Mandelbrot set for z = x + 0j')
@@ -136,6 +136,6 @@ def plot_x_stabilized_values():
 
 if __name__ == '__main__':
     plot_mandelbrot_set()
-    # plot_stabilized_values()
-    # plot_x_length_stabilized_values()
-    # plot_x_stabilized_values()
+    plot_stabilized_values()
+    plot_x_length_stabilized_values()
+    plot_x_stabilized_values()
