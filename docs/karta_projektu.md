@@ -32,9 +32,9 @@ jupyter notebook
 
 3. Uruchomienie strony [](http://localhost:8888/) w przeglądarce internetowej.
 
-4. Załadowanie pliku `notebook.ipynb` i uruchomienie wszystkich komórek.
+4. Załadowanie pliku `MandelbrotLogisticMap.ipynb` i uruchomienie wszystkich komórek.
 
-*Alternatywą dla punktów 2-4 jest uruchomienie pliku `notebook.ipynb` np. w programie Visual Studio Code.*
+*Alternatywą dla punktów 2-4 jest uruchomienie pliku `MandelbrotLogisticMap.ipynb` np. w programie Visual Studio Code.*
 
 ### 5. Wykorzystanie LLM
 W celu przyspieszenia prac korzystano z narzędzia Github Copilot. Ponadto ChatGPT był wykorzystywany w ramach wsparcia przy rozwiązywaniu błędów podczas tworzenia wykresów.
